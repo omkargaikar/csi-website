@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Events</title>
+
+    <!-- CSS TEMPLATES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/students-1.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <nav class="topnav" id="myTopnav">
+        <a class="#">CSI-IT</a>
+        <a href="index.html">HOME</a>
+        <a href="Events.html" class="active">EVENTS</a>
+        <a href="students.html">STUDENTS</a>
+        <a href="sponsors.html">SPONSORS</a>
+        <a href="ContactUs.html">CONTACT US</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </nav>
+      <div>
+        <input type="file" name="filename" id="myFile">
+   <button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myFile").name;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+    
+    </div>
+    <div>
+        <form>
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname"><br>
+  Email:<br>
+  <input type="email" name="email"><br>
+  Class Year:<br>
+  <input type="text" name="year"><br>
+  Share Your Information:<br>
+
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+        
+        </form>
+    </div> 
+    
+    
+    <footer>
+        <small>Follow us at!</small>
+        <div class="social-networks" style="text-align: center">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+    </footer>
+    <!-- /.container -->
+    <!--SCRPITS-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
